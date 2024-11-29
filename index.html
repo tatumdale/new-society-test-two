@@ -18,7 +18,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2 {
             color: #2c3e50;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
@@ -27,12 +27,39 @@
             line-height: 1.6;
             color: #34495e;
         }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to New Society</h1>
-        <p>This is a simple webpage for our project. More content coming soon!</p>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>New Society is a forward-thinking organization dedicated to positive change and community building.</p>
+        </section>
+
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>To create meaningful connections and foster innovation through collaboration and shared knowledge.</p>
+        </section>
+
+        <section id="news">
+            <h2>Latest Updates</h2>
+            <p>Stay tuned for exciting developments and upcoming events in our community!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@newsociety.org<br>
+            Phone: (555) 123-4567<br>
+            Location: Innovation Hub, Tech Valley</p>
+        </section>
     </div>
 </body>
 </html>
